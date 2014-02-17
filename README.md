@@ -2,6 +2,11 @@
 
 A simple shell script to setup a Boxen instance on a SMM Machine.
 
+# Use me
+1. `git clone https://github.com/scimusmn/boxen-setup.git`
+1. `cd boxen-setup``
+1. `./boxen-setup.sh`
+
 ## What does it do.
 1. Creates the Boxen directory
 1. Sets the correct permissions
