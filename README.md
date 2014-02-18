@@ -16,6 +16,22 @@ Then run:
 1. `cd boxen-setup`
 1. `./boxen-setup.sh`
 
+The inital run can take tens of minutes or up to multiple hours.
+
+*Resist the urge to cancel out of the process. It can cause errors while software is compiling.*
+
+If there are problems loop through these solutions:
+
+1. Relaunch Terminal
+1. Run `boxen` again.
+1. Install the latest OS software updates.
+1. Restart
+
+Because Boxen is [idempotent](http://en.wikipedia.org/wiki/Idempotence#Computer_science_meaning)
+you can run it multiple times without causing problems.
+If something doesn't work, just keep running Boxen and restarting
+until all errors disapear.
+
 ## What does it do?
 1. Creates the Boxen directory
 1. Sets the correct permissions
@@ -24,7 +40,3 @@ Then run:
 
 We enable debug just because the first run takes a pretty long time (tens of minutes to hours) and it's helpful to be able to see that something's actually happening, during the setup.
 
-*Resist the urge to cancel out of the process. It can cause errors while software is compiling.*
-
-If there are problems, run `boxen`, restart, install all software updates, 
-restart, run `boxen`, restart, repeat, and repeat until there are no errors.
