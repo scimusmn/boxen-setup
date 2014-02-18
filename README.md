@@ -1,7 +1,7 @@
 # Boxen setup script
 A simple shell script to setup a Boxen instance on a SMM Machine.
 
-# Use me
+## Use me
 If you are setting up a computer from scratch you will need the OS X
 command line tools. Open Appllications > Utilities > Terminal.app. Type:
 
@@ -20,6 +20,7 @@ The inital run can take tens of minutes or up to multiple hours.
 
 *Resist the urge to cancel out of the process. It can cause errors while software is compiling.*
 
+### Troubleshooting
 If there are problems loop through these solutions:
 
 1. Relaunch Terminal
