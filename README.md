@@ -30,7 +30,7 @@ If there are problems loop through these solutions:
 
 Because Boxen is [idempotent](http://en.wikipedia.org/wiki/Idempotence#Computer_science_meaning)
 you can run it multiple times without causing problems.
-If something doesn't work, just keep running Boxen and restarting
+If something doesn't work, just keep running `boxen` and restarting
 until all errors disapear.
 
 ## What does it do?
