@@ -7,7 +7,7 @@ command line tools. Open Appllications > Utilities > Terminal.app. Type:
 
 `xcode-select --install`
 
-and select `Install`. You should not need to install the full XCode suite, 
+and select `Install`. You should not need to install the full Xcode suite, 
 just the command line tools.
 
 Then run:
