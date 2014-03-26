@@ -16,7 +16,7 @@ Then run:
 1. `cd boxen-setup`
 1. `./boxen-setup.sh`
 
-The inital run can take tens of minutes or up to multiple hours.
+The inital run can take anywhere between tens of minutes to multiple hours.
 
 *Resist the urge to cancel out of the process. It can cause errors while software is compiling.*
 
