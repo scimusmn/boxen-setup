@@ -20,6 +20,14 @@ The inital run can take anywhere between tens of minutes to multiple hours.
 
 *Resist the urge to cancel out of the process. It can cause errors while software is compiling.*
 
+## What does it do?
+1. Creates the Boxen directory
+1. Sets the correct permissions
+1. Clones our Boxen manifest
+1. Runs Boxen for the first time, ignoring encryption requirement, with debug mode enabled.
+
+We enable debug just because the first run takes a pretty long time (tens of minutes to hours) and it's helpful to be able to see that something's actually happening, during the setup.
+
 ## Troubleshooting
 If there are problems loop through these solutions:
 
@@ -52,10 +60,3 @@ OS X Mavericks. You need to re-run the boxen script with some ARCHFLAGS:
 1. `cd /opt/boxen/repo`
 1. `ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future ./script/boxen`
 
-## What does it do?
-1. Creates the Boxen directory
-1. Sets the correct permissions
-1. Clones our Boxen manifest
-1. Runs Boxen for the first time, ignoring encryption requirement, with debug mode enabled.
-
-We enable debug just because the first run takes a pretty long time (tens of minutes to hours) and it's helpful to be able to see that something's actually happening, during the setup.
