@@ -20,7 +20,7 @@ The inital run can take tens of minutes or up to multiple hours.
 
 *Resist the urge to cancel out of the process. It can cause errors while software is compiling.*
 
-### Troubleshooting
+## Troubleshooting
 If there are problems loop through these solutions:
 
 1. Relaunch Terminal
@@ -33,6 +33,25 @@ you can run it multiple times without causing problems.
 If something doesn't work, just keep running `boxen` and restarting
 until all errors disapear.
 
+### Command line tools install
+When you try to install the command line tools, you get an error saying:
+
+> Can't install the software because it is not currently available from the 
+> Software Update server.
+
+You probably have already installed the command line tools.
+
+### Can't bootstrap
+When you first run the `./boxen-setup.sh` script, you get an error talking about:
+
+> Can't bootstrap dependencies are outdated
+
+This is a [known issue](https://github.com/boxen/our-boxen/issues/61) on 
+OS X Mavericks. You need to re-run the boxen script with some ARCHFLAGS:
+
+1. `cd /opt/boxen/repo`
+1. `ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future ./script/boxen`
+
 ## What does it do?
 1. Creates the Boxen directory
 1. Sets the correct permissions
@@ -40,4 +59,3 @@ until all errors disapear.
 1. Runs Boxen for the first time, ignoring encryption requirement, with debug mode enabled.
 
 We enable debug just because the first run takes a pretty long time (tens of minutes to hours) and it's helpful to be able to see that something's actually happening, during the setup.
-
