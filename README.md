@@ -1,7 +1,7 @@
-# Boxen setup script A simple shell script to setup a Boxen instance on a SMM
-Machine.
+# Boxen setup script<br />A simple shell script to setup a Boxen instance on a SMM Machine.
 
-## Use me If you are setting up a computer from scratch you will need the OS X
+## Use me
+If you are setting up a computer from scratch you will need the OS X
 command line tools. Open Appllications > Utilities > Terminal.app. Type:
 
 `xcode-select --install`
@@ -31,7 +31,8 @@ We enable debug just because the first run takes a pretty long time (tens of
 minutes to hours) and it's helpful to be able to see that something's actually
 happening, during the setup.
 
-## Troubleshooting If there are problems loop through these solutions:
+## Troubleshooting
+If there are problems loop through these solutions:
 
 1. Relaunch Terminal
 1. Run `boxen` again.
@@ -43,16 +44,16 @@ Because Boxen is
 you can run it multiple times without causing problems.  If something doesn't
 work, just keep running `boxen` and restarting until all errors disapear.
 
-### Command line tools install When you try to install the command line tools,
-you get an error saying:
+### Command line tools install
+When you try to install the command line tools, you get an error saying:
 
 > Can't install the software because it is not currently available from the
 > Software Update server.
 
 You probably have already installed the command line tools.
 
-### Can't bootstrap When you first run the `./boxen-setup.sh` script, you get
-an error talking about:
+### Can't bootstrap
+When you first run the `./boxen-setup.sh` script, you get an error talking about:
 
 > Can't bootstrap dependencies are outdated
 
