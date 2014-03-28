@@ -1,4 +1,5 @@
-# Boxen setup script<br />A simple shell script to setup a Boxen instance on a SMM Machine.
+# Boxen setup script
+A simple shell script to setup a Boxen instance on a SMM Machine.
 
 ## Use me
 If you are setting up a computer from scratch you will need the OS X
