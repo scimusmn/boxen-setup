@@ -3,12 +3,15 @@ A simple shell script to setup a Boxen instance on a SMM Machine.
 
 ## Use me
 If you are setting up a computer from scratch you will need the OS X
-command line tools. Open Appllications > Utilities > Terminal.app. Type:
+command line tools.
+
+Open Appllications > Utilities > Terminal.app. Type:
 
 `xcode-select --install`
 
-and select `Install`. You should not need to install the full Xcode suite, just
-the command line tools.
+and select `Install`.
+
+You should not need to install the full Xcode suite, just the command line tools.
 
 Then run:
 
